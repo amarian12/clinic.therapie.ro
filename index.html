@@ -316,10 +316,10 @@
                 <div class="card-new p-6">
                     <form action="https://api.web3forms.com/submit" method="POST" class="space-y-4">
 				    <input type="hidden" name="access_key" value="06acd50e-7338-4378-bb7d-ee9ce42264ae">
-                        <input type="text" placeholder="Your Full Name" required class="w-full p-3 border border-gray-300 rounded-md" data-i18n-placeholder="placeholderName">
-                        <input type="email" placeholder="Email Address" required class="w-full p-3 border border-gray-300 rounded-md" data-i18n-placeholder="placeholderEmail">
-                        <input type="tel" placeholder="Phone Number (Optional)" class="w-full p-3 border border-gray-300 rounded-md" data-i18n-placeholder="placeholderPhone">
-                        <textarea placeholder="Tell us briefly about your main concern (e.g., Sciatica, Insomnia, Stress)" rows="3" class="w-full p-3 border border-gray-300 rounded-md" data-i18n-placeholder="placeholderConcern"></textarea>
+                        <input type="text" name="name"  placeholder="Your Full Name" required class="w-full p-3 border border-gray-300 rounded-md" data-i18n-placeholder="placeholderName">
+                        <input type="email" name="email" placeholder="Email Address" required class="w-full p-3 border border-gray-300 rounded-md" data-i18n-placeholder="placeholderEmail">
+                        <input type="tel" name="tel"  placeholder="Phone Number (Optional)" class="w-full p-3 border border-gray-300 rounded-md" data-i18n-placeholder="placeholderPhone">
+                        <textarea name="message" placeholder="Tell us briefly about your main concern (e.g., Sciatica, Insomnia, Stress)" rows="3" class="w-full p-3 border border-gray-300 rounded-md" data-i18n-placeholder="placeholderConcern"></textarea>
                         <button type="submit" class="cta-button w-full inline-block mt-4 text-lg" data-i18n="bookingCta">
                            Request Appointment Time
                         </button>
