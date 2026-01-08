@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="app-title" data-i18n="appTitle">The Healing Touch Clinic | Bowen Therapy & Stress Relief</title>
+    <title id="app-title" data-i18n="appTitle">The Healing Touch Clinic North Holland | Bowen Therapy | Stress Relief</title>
+    <meta name="description" content="Specialized Bowen Therapy clinic in North Holland led by certified practitioner Anca. Book your session for pain relief and stress management.">
     <link rel="icon" type="image/png" href="img\logo.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -314,13 +315,15 @@
                 <p class="mb-8 text-lg text-gray-600" data-i18n="bookingSubText">Schedule your session online or call us today to discuss how Bowen Therapy can help you achieve your wellness goals.</p>
 
                 <div class="card-new p-6">
-                    <form action="#" method="POST" class="space-y-4">
+                    <form action="https://api.web3forms.com/submit" method="POST" class="space-y-4">
+				    <input type="hidden" name="access_key" value="06acd50e-7338-4378-bb7d-ee9ce42264ae">
                         <input type="text" placeholder="Your Full Name" required class="w-full p-3 border border-gray-300 rounded-md" data-i18n-placeholder="placeholderName">
                         <input type="email" placeholder="Email Address" required class="w-full p-3 border border-gray-300 rounded-md" data-i18n-placeholder="placeholderEmail">
                         <input type="tel" placeholder="Phone Number (Optional)" class="w-full p-3 border border-gray-300 rounded-md" data-i18n-placeholder="placeholderPhone">
                         <textarea placeholder="Tell us briefly about your main concern (e.g., Sciatica, Insomnia, Stress)" rows="3" class="w-full p-3 border border-gray-300 rounded-md" data-i18n-placeholder="placeholderConcern"></textarea>
-                        
-                        <a href="#" class="cta-button w-full inline-block mt-4 text-lg" data-i18n="bookingCta">Request Appointment Time</a>
+                        <button type="submit" class="cta-button w-full inline-block mt-4 text-lg" data-i18n="bookingCta">
+                           Request Appointment Time
+                        </button>
                     </form>
                     
                     <p class="text-sm text-gray-700 mt-4" data-i18n="contactHours">We are open Monday to Friday, 9:00 AM - 6:00 PM. All sessions are by appointment only.</p>
